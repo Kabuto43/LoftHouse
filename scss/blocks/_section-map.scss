@@ -29,3 +29,13 @@
     height: 358px;
     background: #626262;
 }
+
+iframe {
+    width: 100%;
+    max-width: 1140px;
+    height: 358px;
+
+    @include mediaTablet {
+        max-width: 959px;
+    }
+}
